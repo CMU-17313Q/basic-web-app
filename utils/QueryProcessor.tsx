@@ -5,6 +5,13 @@ export default function QueryProcessor(query: string): string {
       "English poet, playwright, and actor, widely regarded as the greatest " +
       "writer in the English language and the world's pre-eminent dramatist."
     );
+    
+  }
+  if (query.toLowerCase().includes("andrew")) {
+    return (
+      "mannan"
+    );
+    
   }
 
   return "";
